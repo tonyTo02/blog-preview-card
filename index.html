@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="index.css">
+  <script src="./config.js"></script>
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="text-base bg-yellow w-full h-screen font-figtree flex flex-col items-center justify-center">
+  <main class="bg-white w-96 border-2 flex flex-col justify-center items-center rounded-3xl shadow-[5px_5px_0_black]">
+    <section class="py-4 pt-6">
+      <img src="./design/blogimage.png">
+    </section>
+    <section>
+      <p class="py-4 px-6">
+        <span class="bg-yellow py-2 font-montserrat px-4 font-bold rounded-lg">
+          Learning
+        </span>
+      </p>
+      <p class="py-2 px-6">
+        Published 21 Dec 2023
+      </p>
+      <h1 class="py-2 px-6 font-bold font-montserrat text-xl">
+        HTML & CSS foundations
+      </h1>
+      <p class="py-2 px-6 text-gray">
+        These languages are the backbone of every website, defining structure, content, and presentation.
+      </p>
+      <section class="pt-4 pb-6 px-6 flex flex-row items-center">
+        <img src="./assets/images/image-avatar.webp" alt="avatar" class="w-10">
+        <span class="ms-4 font-bold">
+          Greg Hooper
+        </span>
+      </section> 
+    </section>
+  </main>
+  <div class="attribution mt-9">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
